@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://jolly-hopper-e02603.netlify.app/'
+        origin: 'https://jolly-hopper-e02603.netlify.app'
     })
 );
 app.options('*', cors());
